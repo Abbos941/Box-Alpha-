@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "box-language"
+version = "0.1.0"
+description = "The Box programming language interpreter"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Abbos"}]
+keywords = ["box", "programming-language", "interpreter"]
+
+[project.scripts]
+box = "box_language.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

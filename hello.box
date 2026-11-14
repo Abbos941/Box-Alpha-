@@ -1,0 +1,5 @@
+#Start#
+P {Hello from Box!}!
+P {123321} box {A}!
+>{A}
+#End#
